@@ -22,7 +22,7 @@
 ## 📷 Projeto 2D (console)
 
 <p align="left">
-  <img alt="informações do projeto 2d no console" src="https://user-images.githubusercontent.com/45500812/144407880-982bdc70-440f-47e8-8604-ae2056afa85f.png" width="40%">
+  <img alt="informações do projeto 2d no console" src="https://user-images.githubusercontent.com/45500812/144444783-dccc9d15-d1e4-446a-a62c-37291b32a47c.png" width="40%">
 </p>
 
 ## 📷 Projeto 3D
