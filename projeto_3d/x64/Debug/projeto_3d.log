@@ -1,0 +1,27 @@
+﻿  main.cpp
+C:\Users\djalm\Documents\GitHub\computacao-grafica-opengl\projeto_3d\colors.h(5,31): warning C4305: 'inicializando': truncamento de 'double' para 'float'
+C:\Users\djalm\Documents\GitHub\computacao-grafica-opengl\projeto_3d\colors.h(7,32): warning C4305: 'inicializando': truncamento de 'double' para 'float'
+C:\Users\djalm\Documents\GitHub\computacao-grafica-opengl\projeto_3d\colors.h(10,38): warning C4305: 'inicializando': truncamento de 'double' para 'float'
+C:\Users\djalm\Documents\GitHub\computacao-grafica-opengl\projeto_3d\colors.h(12,37): warning C4305: 'inicializando': truncamento de 'double' para 'float'
+C:\Users\djalm\Documents\GitHub\computacao-grafica-opengl\projeto_3d\colors.h(13,35): warning C4305: 'inicializando': truncamento de 'double' para 'float'
+C:\Users\djalm\Documents\GitHub\computacao-grafica-opengl\projeto_3d\colors.h(14,30): warning C4305: 'inicializando': truncamento de 'double' para 'float'
+C:\Users\djalm\Documents\GitHub\computacao-grafica-opengl\projeto_3d\colors.h(15,38): warning C4305: 'inicializando': truncamento de 'double' para 'float'
+C:\Users\djalm\Documents\GitHub\computacao-grafica-opengl\projeto_3d\colors.h(16,32): warning C4305: 'inicializando': truncamento de 'double' para 'float'
+C:\Users\djalm\Documents\GitHub\computacao-grafica-opengl\projeto_3d\primitives.h(28,11): warning C4244: '=': conversão de 'double' para 'float', possível perda de dados
+C:\Users\djalm\Documents\GitHub\computacao-grafica-opengl\projeto_3d\primitives.h(29,11): warning C4244: '=': conversão de 'double' para 'float', possível perda de dados
+C:\Users\djalm\Documents\GitHub\computacao-grafica-opengl\projeto_3d\primitives.h(30,11): warning C4244: '=': conversão de 'double' para 'float', possível perda de dados
+C:\Users\djalm\Documents\GitHub\computacao-grafica-opengl\projeto_3d\primitives.h(123,11): warning C4244: '=': conversão de 'double' para 'float', possível perda de dados
+C:\Users\djalm\Documents\GitHub\computacao-grafica-opengl\projeto_3d\primitives.h(124,11): warning C4244: '=': conversão de 'double' para 'float', possível perda de dados
+C:\Users\djalm\Documents\GitHub\computacao-grafica-opengl\projeto_3d\primitives.h(125,11): warning C4244: '=': conversão de 'double' para 'float', possível perda de dados
+C:\Users\djalm\Documents\GitHub\computacao-grafica-opengl\projeto_3d\primitives.h(159,37): warning C4305: 'inicializando': truncamento de 'double' para 'GLfloat'
+C:\Users\djalm\Documents\GitHub\computacao-grafica-opengl\projeto_3d\primitives.h(166,21): warning C4244: 'inicializando': conversão de 'double' para 'GLfloat', possível perda de dados
+C:\Users\djalm\Documents\GitHub\computacao-grafica-opengl\projeto_3d\primitives.h(179,45): warning C4267: 'inicializando': conversão de 'size_t' para 'GLuint', possível perda de dados
+C:\Users\djalm\Documents\GitHub\computacao-grafica-opengl\projeto_3d\main.cpp(80,21): warning C4244: 'inicializando': conversão de 'double' para 'float', possível perda de dados
+C:\Users\djalm\Documents\GitHub\computacao-grafica-opengl\projeto_3d\main.cpp(102,33): warning C4305: 'argumento': truncamento de 'double' para 'GLfloat'
+C:\Users\djalm\Documents\GitHub\computacao-grafica-opengl\projeto_3d\main.cpp(108,33): warning C4305: 'argumento': truncamento de 'double' para 'GLfloat'
+C:\Users\djalm\Documents\GitHub\computacao-grafica-opengl\projeto_3d\main.cpp(148,38): warning C4305: 'argumento': truncamento de 'double' para 'GLclampf'
+C:\Users\djalm\Documents\GitHub\computacao-grafica-opengl\projeto_3d\main.cpp(163,42): warning C4244: 'argumento': conversão de 'double' para 'GLuint', possível perda de dados
+C:\Users\djalm\Documents\GitHub\computacao-grafica-opengl\projeto_3d\main.cpp(163,36): warning C4244: 'argumento': conversão de 'double' para 'GLuint', possível perda de dados
+C:\Users\djalm\Documents\GitHub\computacao-grafica-opengl\projeto_3d\main.cpp(190,46): warning C4244: 'argumento': conversão de 'double' para 'GLuint', possível perda de dados
+C:\Users\djalm\Documents\GitHub\computacao-grafica-opengl\projeto_3d\main.cpp(190,40): warning C4244: 'argumento': conversão de 'double' para 'GLuint', possível perda de dados
+  projeto_3d.vcxproj -> C:\Users\djalm\Documents\GitHub\computacao-grafica-opengl\projeto_3d\x64\Debug\projeto_3d.exe
