@@ -7,7 +7,6 @@
 
 /* rotate Sun */
 float sunAngle = 0.0f;
-float sunRC = 0.0f;
 
 /* scale Door */
 float doorSA = -1.5f;
@@ -55,6 +54,8 @@ float roofD = 0.0;
 float roofE = 0.45;
 float roofF = 0.6;
 
+boolean colors = true;
+
 void help() {
     std::cout << "                                     " << std::endl;
     std::cout << "+++++++++++++++++++++++++++++++++++++" << std::endl;
@@ -65,11 +66,12 @@ void help() {
     std::cout << "caso  R: Rotacionar Sol" << std::endl;
     std::cout << "caso  A: Aumentar Porta da Casa" << std::endl;
     std::cout << "caso  MOUSE1: Mudar Cor da Casa" << std::endl;
-    std::cout << "caso  D: Diminuir telhado da Casa" << std::endl;
-    std::cout << "caso  Seta p/ cima: Transladar Casa para cima" << std::endl;
-    std::cout << "caso  Seta p/ baixo: Transladar Casa para baixo" << std::endl;
-    std::cout << "caso  Seta p/ direita: Transladar Casa para direita" << std::endl;
-    std::cout << "caso  Seta p/ esquerda: Transladar Casa para esquerda" << std::endl;
+    std::cout << "caso  MOUSE2: Voltar Cor Original da Casa" << std::endl;
+    std::cout << "caso  D: Diminuir Telhado da Casa" << std::endl;
+    std::cout << "caso  Seta p/ cima: Transladar Casa para Cima" << std::endl;
+    std::cout << "caso  Seta p/ baixo: Transladar Casa para Baixo" << std::endl;
+    std::cout << "caso  Seta p/ direita: Transladar Casa para Direita" << std::endl;
+    std::cout << "caso  Seta p/ esquerda: Transladar Casa para Esquerda" << std::endl;
     std::cout << "-------------------------------------" << std::endl;
 }
 
@@ -78,7 +80,7 @@ void draw(float dt)
     /* Create Sun */
     glPushMatrix();
         glTranslatef(-8.0, 5.0, 0.0);
-        glRotatef(sunAngle, 0.0, 0.0, sunRC);
+        glRotatef(sunAngle, 0.0, 0.0, 1.0);
         drawCircle(2.5, yellow, orange);
     glPopMatrix();
 
@@ -189,7 +191,6 @@ int main(void)
         {
             /* Rotate Sun */
             sunAngle += 5.0f;
-            sunRC += 6.0f;
         }
         else if (glfwGetKey(window, GLFW_KEY_A) == GLFW_PRESS)
         {
@@ -204,7 +205,7 @@ int main(void)
         }
         else if (glfwGetMouseButton(window, GLFW_MOUSE_BUTTON_LEFT) == GLFW_PRESS)
         {
-            /* Recolor House */
+            /* Color House */
             /* Base */
             baseA = 0.0;
             baseB = 0.45;
@@ -233,6 +234,38 @@ int main(void)
             roofD = 1.0;
             roofE = 1.0;
             roofF = 1.0;
+        }
+        else if (glfwGetMouseButton(window, GLFW_MOUSE_BUTTON_RIGHT) == GLFW_PRESS)
+        {
+            /* Recolor House */
+            /* Base */
+            baseA = 0.85;
+            baseB = 0.12;
+            baseC = 0.0;
+            baseD = 1.0;
+            baseE = 0.6;
+            baseF = 0.2;
+            /* Door */
+            doorA = 0.54;
+            doorB = 0.17;
+            doorC = 0.88;
+            doorD = 0.0;
+            doorE = 0.15;
+            doorF = 0.35;
+            /* Window */
+            windowA = 0.0;
+            windowB = 0.45;
+            windowC = 0.6;
+            windowD = 0.0;
+            windowE = 0.15;
+            windowF = 0.35;
+            /* Roof */
+            roofA = 0.0;
+            roofB = 1.0;
+            roofC = 0.0;
+            roofD = 0.0;
+            roofE = 0.45;
+            roofF = 0.6;
         }
         else if (glfwGetKey(window, GLFW_KEY_D) == GLFW_PRESS)
         {

@@ -9,9 +9,6 @@
 
 /* rotate Sun */
 float sunAngle = 0.0f;
-float sunRA = 0.0f;
-float sunRB = 0.0f;
-float sunRC = 0.0f;
 
 /* scale Sun */
 float sunSA = 1.5f;
@@ -25,7 +22,6 @@ float sunTC = -100.0f;
 
 /* translate Roof */
 float roofAngle = 0.0f;
-float roofT = 0.0f;
 
 static float angle = 0.0;
 
@@ -86,7 +82,7 @@ void draw(float dt)
     /* interactions with the sun */
     glPushMatrix();
     glTranslatef(sunTA, sunTB, sunTC);
-    glRotatef(sunAngle, sunRA, sunRB, sunRC);
+    glRotatef(sunAngle, 1.0, 1.0, 1.0);
     glScalef(sunSA, sunSB, sunSC);
     glCallList(objects[1].id);
     glPopMatrix();
@@ -112,7 +108,7 @@ void draw(float dt)
     /* position house roof */
     glPushMatrix();
     glTranslatef(5.0, 4.5, -22.0);
-    glRotatef(roofAngle, 0.0, roofT, 0.0);
+    glRotatef(roofAngle, 0.0, 1.0, 0.0);
     glCallList(objects[5].id);
     glPopMatrix();
 
@@ -231,15 +227,11 @@ int main(void)
         {
             /* Rotate Roof */
             roofAngle += 5.0f;
-            roofT += 5.0f;
         }
         else if (glfwGetKey(window, GLFW_KEY_S) == GLFW_PRESS)
         {
             /* Rotate Sun */
             sunAngle += 5.0f;
-            sunRA += 6.0f;
-            sunRB += 5.0f;
-            sunRC += 5.0f;
         }
         else if (glfwGetMouseButton(window, GLFW_MOUSE_BUTTON_LEFT) == GLFW_PRESS)
         {

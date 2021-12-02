@@ -31,41 +31,56 @@ C:\Users\djalm\Documents\GitHub\computacao-grafica-opengl\projeto_2d\primitives.
 C:\Users\djalm\Documents\GitHub\computacao-grafica-opengl\projeto_2d\primitives.h(57,25): warning C4244: 'argumento': conversão de 'double' para 'GLfloat', possível perda de dados
 C:\Users\djalm\Documents\GitHub\computacao-grafica-opengl\projeto_2d\primitives.h(59,34): warning C4244: 'argumento': conversão de 'double' para 'GLfloat', possível perda de dados
 C:\Users\djalm\Documents\GitHub\computacao-grafica-opengl\projeto_2d\primitives.h(59,24): warning C4244: 'argumento': conversão de 'double' para 'GLfloat', possível perda de dados
+C:\Users\djalm\Documents\GitHub\computacao-grafica-opengl\projeto_2d\main.cpp(26,19): warning C4305: 'inicializando': truncamento de 'double' para 'float'
 C:\Users\djalm\Documents\GitHub\computacao-grafica-opengl\projeto_2d\main.cpp(27,19): warning C4305: 'inicializando': truncamento de 'double' para 'float'
-C:\Users\djalm\Documents\GitHub\computacao-grafica-opengl\projeto_2d\main.cpp(28,19): warning C4305: 'inicializando': truncamento de 'double' para 'float'
+C:\Users\djalm\Documents\GitHub\computacao-grafica-opengl\projeto_2d\main.cpp(30,18): warning C4305: 'inicializando': truncamento de 'double' para 'float'
 C:\Users\djalm\Documents\GitHub\computacao-grafica-opengl\projeto_2d\main.cpp(31,18): warning C4305: 'inicializando': truncamento de 'double' para 'float'
-C:\Users\djalm\Documents\GitHub\computacao-grafica-opengl\projeto_2d\main.cpp(32,18): warning C4305: 'inicializando': truncamento de 'double' para 'float'
+C:\Users\djalm\Documents\GitHub\computacao-grafica-opengl\projeto_2d\main.cpp(34,19): warning C4305: 'inicializando': truncamento de 'double' para 'float'
 C:\Users\djalm\Documents\GitHub\computacao-grafica-opengl\projeto_2d\main.cpp(35,19): warning C4305: 'inicializando': truncamento de 'double' para 'float'
 C:\Users\djalm\Documents\GitHub\computacao-grafica-opengl\projeto_2d\main.cpp(36,19): warning C4305: 'inicializando': truncamento de 'double' para 'float'
-C:\Users\djalm\Documents\GitHub\computacao-grafica-opengl\projeto_2d\main.cpp(37,19): warning C4305: 'inicializando': truncamento de 'double' para 'float'
+C:\Users\djalm\Documents\GitHub\computacao-grafica-opengl\projeto_2d\main.cpp(38,19): warning C4305: 'inicializando': truncamento de 'double' para 'float'
 C:\Users\djalm\Documents\GitHub\computacao-grafica-opengl\projeto_2d\main.cpp(39,19): warning C4305: 'inicializando': truncamento de 'double' para 'float'
-C:\Users\djalm\Documents\GitHub\computacao-grafica-opengl\projeto_2d\main.cpp(40,19): warning C4305: 'inicializando': truncamento de 'double' para 'float'
-C:\Users\djalm\Documents\GitHub\computacao-grafica-opengl\projeto_2d\main.cpp(44,21): warning C4305: 'inicializando': truncamento de 'double' para 'float'
-C:\Users\djalm\Documents\GitHub\computacao-grafica-opengl\projeto_2d\main.cpp(45,20): warning C4305: 'inicializando': truncamento de 'double' para 'float'
+C:\Users\djalm\Documents\GitHub\computacao-grafica-opengl\projeto_2d\main.cpp(43,21): warning C4305: 'inicializando': truncamento de 'double' para 'float'
+C:\Users\djalm\Documents\GitHub\computacao-grafica-opengl\projeto_2d\main.cpp(44,20): warning C4305: 'inicializando': truncamento de 'double' para 'float'
+C:\Users\djalm\Documents\GitHub\computacao-grafica-opengl\projeto_2d\main.cpp(46,21): warning C4305: 'inicializando': truncamento de 'double' para 'float'
 C:\Users\djalm\Documents\GitHub\computacao-grafica-opengl\projeto_2d\main.cpp(47,21): warning C4305: 'inicializando': truncamento de 'double' para 'float'
-C:\Users\djalm\Documents\GitHub\computacao-grafica-opengl\projeto_2d\main.cpp(48,21): warning C4305: 'inicializando': truncamento de 'double' para 'float'
-C:\Users\djalm\Documents\GitHub\computacao-grafica-opengl\projeto_2d\main.cpp(55,19): warning C4305: 'inicializando': truncamento de 'double' para 'float'
-C:\Users\djalm\Documents\GitHub\computacao-grafica-opengl\projeto_2d\main.cpp(56,18): warning C4305: 'inicializando': truncamento de 'double' para 'float'
-C:\Users\djalm\Documents\GitHub\computacao-grafica-opengl\projeto_2d\main.cpp(93,41): warning C4244: 'argumento': conversão de 'double' para 'GLfloat', possível perda de dados
-C:\Users\djalm\Documents\GitHub\computacao-grafica-opengl\projeto_2d\main.cpp(93,26): warning C4244: 'argumento': conversão de 'double' para 'GLfloat', possível perda de dados
-C:\Users\djalm\Documents\GitHub\computacao-grafica-opengl\projeto_2d\main.cpp(101,61): warning C4244: 'argumento': conversão de 'double' para 'GLfloat', possível perda de dados
-C:\Users\djalm\Documents\GitHub\computacao-grafica-opengl\projeto_2d\main.cpp(101,36): warning C4244: 'argumento': conversão de 'double' para 'GLfloat', possível perda de dados
-C:\Users\djalm\Documents\GitHub\computacao-grafica-opengl\projeto_2d\main.cpp(110,41): warning C4244: 'argumento': conversão de 'double' para 'GLfloat', possível perda de dados
-C:\Users\djalm\Documents\GitHub\computacao-grafica-opengl\projeto_2d\main.cpp(110,26): warning C4244: 'argumento': conversão de 'double' para 'GLfloat', possível perda de dados
-C:\Users\djalm\Documents\GitHub\computacao-grafica-opengl\projeto_2d\main.cpp(118,40): warning C4244: 'argumento': conversão de 'double' para 'GLfloat', possível perda de dados
-C:\Users\djalm\Documents\GitHub\computacao-grafica-opengl\projeto_2d\main.cpp(118,26): warning C4244: 'argumento': conversão de 'double' para 'GLfloat', possível perda de dados
-C:\Users\djalm\Documents\GitHub\computacao-grafica-opengl\projeto_2d\main.cpp(131,36): warning C4305: 'argumento': truncamento de 'double' para 'GLfloat'
-C:\Users\djalm\Documents\GitHub\computacao-grafica-opengl\projeto_2d\main.cpp(167,38): warning C4305: 'argumento': truncamento de 'double' para 'GLclampf'
-C:\Users\djalm\Documents\GitHub\computacao-grafica-opengl\projeto_2d\main.cpp(210,25): warning C4305: '=': truncamento de 'double' para 'float'
-C:\Users\djalm\Documents\GitHub\computacao-grafica-opengl\projeto_2d\main.cpp(211,24): warning C4305: '=': truncamento de 'double' para 'float'
-C:\Users\djalm\Documents\GitHub\computacao-grafica-opengl\projeto_2d\main.cpp(216,25): warning C4305: '=': truncamento de 'double' para 'float'
+C:\Users\djalm\Documents\GitHub\computacao-grafica-opengl\projeto_2d\main.cpp(54,19): warning C4305: 'inicializando': truncamento de 'double' para 'float'
+C:\Users\djalm\Documents\GitHub\computacao-grafica-opengl\projeto_2d\main.cpp(55,18): warning C4305: 'inicializando': truncamento de 'double' para 'float'
+C:\Users\djalm\Documents\GitHub\computacao-grafica-opengl\projeto_2d\main.cpp(95,41): warning C4244: 'argumento': conversão de 'double' para 'GLfloat', possível perda de dados
+C:\Users\djalm\Documents\GitHub\computacao-grafica-opengl\projeto_2d\main.cpp(95,26): warning C4244: 'argumento': conversão de 'double' para 'GLfloat', possível perda de dados
+C:\Users\djalm\Documents\GitHub\computacao-grafica-opengl\projeto_2d\main.cpp(103,61): warning C4244: 'argumento': conversão de 'double' para 'GLfloat', possível perda de dados
+C:\Users\djalm\Documents\GitHub\computacao-grafica-opengl\projeto_2d\main.cpp(103,36): warning C4244: 'argumento': conversão de 'double' para 'GLfloat', possível perda de dados
+C:\Users\djalm\Documents\GitHub\computacao-grafica-opengl\projeto_2d\main.cpp(112,41): warning C4244: 'argumento': conversão de 'double' para 'GLfloat', possível perda de dados
+C:\Users\djalm\Documents\GitHub\computacao-grafica-opengl\projeto_2d\main.cpp(112,26): warning C4244: 'argumento': conversão de 'double' para 'GLfloat', possível perda de dados
+C:\Users\djalm\Documents\GitHub\computacao-grafica-opengl\projeto_2d\main.cpp(120,40): warning C4244: 'argumento': conversão de 'double' para 'GLfloat', possível perda de dados
+C:\Users\djalm\Documents\GitHub\computacao-grafica-opengl\projeto_2d\main.cpp(120,26): warning C4244: 'argumento': conversão de 'double' para 'GLfloat', possível perda de dados
+C:\Users\djalm\Documents\GitHub\computacao-grafica-opengl\projeto_2d\main.cpp(133,36): warning C4305: 'argumento': truncamento de 'double' para 'GLfloat'
+C:\Users\djalm\Documents\GitHub\computacao-grafica-opengl\projeto_2d\main.cpp(169,38): warning C4305: 'argumento': truncamento de 'double' para 'GLclampf'
+C:\Users\djalm\Documents\GitHub\computacao-grafica-opengl\projeto_2d\main.cpp(211,25): warning C4305: '=': truncamento de 'double' para 'float'
+C:\Users\djalm\Documents\GitHub\computacao-grafica-opengl\projeto_2d\main.cpp(212,24): warning C4305: '=': truncamento de 'double' para 'float'
 C:\Users\djalm\Documents\GitHub\computacao-grafica-opengl\projeto_2d\main.cpp(217,25): warning C4305: '=': truncamento de 'double' para 'float'
-C:\Users\djalm\Documents\GitHub\computacao-grafica-opengl\projeto_2d\main.cpp(220,24): warning C4305: '=': truncamento de 'double' para 'float'
+C:\Users\djalm\Documents\GitHub\computacao-grafica-opengl\projeto_2d\main.cpp(218,25): warning C4305: '=': truncamento de 'double' para 'float'
 C:\Users\djalm\Documents\GitHub\computacao-grafica-opengl\projeto_2d\main.cpp(221,24): warning C4305: '=': truncamento de 'double' para 'float'
-C:\Users\djalm\Documents\GitHub\computacao-grafica-opengl\projeto_2d\main.cpp(223,27): warning C4305: '=': truncamento de 'double' para 'float'
+C:\Users\djalm\Documents\GitHub\computacao-grafica-opengl\projeto_2d\main.cpp(222,24): warning C4305: '=': truncamento de 'double' para 'float'
 C:\Users\djalm\Documents\GitHub\computacao-grafica-opengl\projeto_2d\main.cpp(224,27): warning C4305: '=': truncamento de 'double' para 'float'
 C:\Users\djalm\Documents\GitHub\computacao-grafica-opengl\projeto_2d\main.cpp(225,27): warning C4305: '=': truncamento de 'double' para 'float'
-C:\Users\djalm\Documents\GitHub\computacao-grafica-opengl\projeto_2d\main.cpp(230,25): warning C4305: '=': truncamento de 'double' para 'float'
+C:\Users\djalm\Documents\GitHub\computacao-grafica-opengl\projeto_2d\main.cpp(226,27): warning C4305: '=': truncamento de 'double' para 'float'
 C:\Users\djalm\Documents\GitHub\computacao-grafica-opengl\projeto_2d\main.cpp(231,25): warning C4305: '=': truncamento de 'double' para 'float'
 C:\Users\djalm\Documents\GitHub\computacao-grafica-opengl\projeto_2d\main.cpp(232,25): warning C4305: '=': truncamento de 'double' para 'float'
+C:\Users\djalm\Documents\GitHub\computacao-grafica-opengl\projeto_2d\main.cpp(233,25): warning C4305: '=': truncamento de 'double' para 'float'
+C:\Users\djalm\Documents\GitHub\computacao-grafica-opengl\projeto_2d\main.cpp(242,25): warning C4305: '=': truncamento de 'double' para 'float'
+C:\Users\djalm\Documents\GitHub\computacao-grafica-opengl\projeto_2d\main.cpp(243,25): warning C4305: '=': truncamento de 'double' para 'float'
+C:\Users\djalm\Documents\GitHub\computacao-grafica-opengl\projeto_2d\main.cpp(246,24): warning C4305: '=': truncamento de 'double' para 'float'
+C:\Users\djalm\Documents\GitHub\computacao-grafica-opengl\projeto_2d\main.cpp(247,24): warning C4305: '=': truncamento de 'double' para 'float'
+C:\Users\djalm\Documents\GitHub\computacao-grafica-opengl\projeto_2d\main.cpp(249,25): warning C4305: '=': truncamento de 'double' para 'float'
+C:\Users\djalm\Documents\GitHub\computacao-grafica-opengl\projeto_2d\main.cpp(250,25): warning C4305: '=': truncamento de 'double' para 'float'
+C:\Users\djalm\Documents\GitHub\computacao-grafica-opengl\projeto_2d\main.cpp(251,25): warning C4305: '=': truncamento de 'double' para 'float'
+C:\Users\djalm\Documents\GitHub\computacao-grafica-opengl\projeto_2d\main.cpp(253,25): warning C4305: '=': truncamento de 'double' para 'float'
+C:\Users\djalm\Documents\GitHub\computacao-grafica-opengl\projeto_2d\main.cpp(254,25): warning C4305: '=': truncamento de 'double' para 'float'
+C:\Users\djalm\Documents\GitHub\computacao-grafica-opengl\projeto_2d\main.cpp(257,27): warning C4305: '=': truncamento de 'double' para 'float'
+C:\Users\djalm\Documents\GitHub\computacao-grafica-opengl\projeto_2d\main.cpp(258,26): warning C4305: '=': truncamento de 'double' para 'float'
+C:\Users\djalm\Documents\GitHub\computacao-grafica-opengl\projeto_2d\main.cpp(260,27): warning C4305: '=': truncamento de 'double' para 'float'
+C:\Users\djalm\Documents\GitHub\computacao-grafica-opengl\projeto_2d\main.cpp(261,27): warning C4305: '=': truncamento de 'double' para 'float'
+C:\Users\djalm\Documents\GitHub\computacao-grafica-opengl\projeto_2d\main.cpp(267,25): warning C4305: '=': truncamento de 'double' para 'float'
+C:\Users\djalm\Documents\GitHub\computacao-grafica-opengl\projeto_2d\main.cpp(268,24): warning C4305: '=': truncamento de 'double' para 'float'
   projeto_2d.vcxproj -> C:\Users\djalm\Documents\GitHub\computacao-grafica-opengl\projeto_2d\x64\Debug\projeto_2d.exe
