@@ -124,12 +124,12 @@ void draw(float dt)
     /* Create Star */
     glPushMatrix();
         glTranslatef(10.0, 8.0, 0.0);
-        drawTriangle(1.0, 1.0, grey_dark, grey_dark);
+        drawTriangle(1.0, 1.0, yellow, yellow);
     glPopMatrix();
 
     glPushMatrix();
         glTranslatef(10.0, 7.6, 0.0);
-        drawTriangle(-1.0, -1.0, grey_dark, grey_dark);
+        drawTriangle(-1.0, -1.0, yellow, yellow);
     glPopMatrix();
 }
 
