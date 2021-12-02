@@ -20,9 +20,10 @@ float sunTA = -30.0f;
 float sunTB = 30.0f;
 float sunTC = -100.0f;
 
-/* translate Roof */
+/* rotate Roof */
 float roofAngle = 0.0f;
 
+/* rotate Stars */
 static float angle = 0.0;
 
 /* display list */
@@ -81,35 +82,35 @@ void draw(float dt)
 
     /* interactions with the sun */
     glPushMatrix();
-    glTranslatef(sunTA, sunTB, sunTC);
-    glRotatef(sunAngle, 1.0, 1.0, 1.0);
-    glScalef(sunSA, sunSB, sunSC);
-    glCallList(objects[1].id);
+        glTranslatef(sunTA, sunTB, sunTC);
+        glRotatef(sunAngle, 1.0, 1.0, 1.0);
+        glScalef(sunSA, sunSB, sunSC);
+        glCallList(objects[1].id);
     glPopMatrix();
 
     /* position house base */
     glPushMatrix();
-    glTranslatef(5.0, 2.0, -22.0);
-    glCallList(objects[2].id);
+        glTranslatef(5.0, 2.0, -22.0);
+        glCallList(objects[2].id);
     glPopMatrix();
 
     /* position house door */
     glPushMatrix();
-    glTranslatef(3.0, 0.8, -18.0);
-    glCallList(objects[3].id);
+        glTranslatef(3.0, 0.8, -18.0);
+        glCallList(objects[3].id);
     glPopMatrix();
 
     /* position house window */
     glPushMatrix();
-    glTranslatef(5.8, 2.2, -18.0);
-    glCallList(objects[4].id);
+        glTranslatef(5.8, 2.2, -18.0);
+        glCallList(objects[4].id);
     glPopMatrix();
 
     /* position house roof */
     glPushMatrix();
-    glTranslatef(5.0, 4.5, -22.0);
-    glRotatef(roofAngle, 0.0, 1.0, 0.0);
-    glCallList(objects[5].id);
+        glTranslatef(5.0, 4.5, -22.0);
+        glRotatef(roofAngle, 0.0, 1.0, 0.0);
+        glCallList(objects[5].id);
     glPopMatrix();
 
     /* generating stars */
