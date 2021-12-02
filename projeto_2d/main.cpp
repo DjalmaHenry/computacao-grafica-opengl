@@ -54,8 +54,6 @@ float roofD = 0.0;
 float roofE = 0.45;
 float roofF = 0.6;
 
-boolean colors = true;
-
 void help() {
     std::cout << "                                     " << std::endl;
     std::cout << "+++++++++++++++++++++++++++++++++++++" << std::endl;
