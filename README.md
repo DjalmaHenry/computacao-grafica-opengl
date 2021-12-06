@@ -58,6 +58,24 @@ Projeto de cenário com 2D e 3D com interações. Em C++ com OpenGL e GLFW. Dese
 - Clique no `projeto_xd.exe` para executar o projeto
 - Ou clique no `projeto_xd.sln` para abrir o código do projeto no visual studio
 
+## 🚀 Como instalar o GLFW (Windows ou MacOS)
+
+- Baixe o GLFW através [desse link](https://www.glfw.org/download.html)
+- Extraia a pasta do arquivo zipado
+- Acesse a pasta extraida
+- Apague todas pastas ao modo que fique somente a pasta `include` e também a `lib` de acordo com a IDE sendo usada
+- Agora acesse o projeto com o Visual Studio
+- Vá na aba `Projeto` e vá em `Propriedades em ...`
+<img alt="propriedades do projeto" src="https://user-images.githubusercontent.com/45500812/144853375-0fed98db-6e13-4d62-8bd1-39655f120099.png" width="20%">
+
+- Vá em `C/C++` e em `Diretórios de inclusão adicionais` insira o caminho da pasta `include` do GLFW em seu PC
+<img alt="adicionando o include" src="https://user-images.githubusercontent.com/45500812/144853587-00835125-9d94-4cb0-8fed-922cec4ba1e2.png" width="50%">
+
+- Agora vá em `Vinculador` e em `Diretórios de biblioteca adicionais` insira o caminho da pasta `lib` do GLFW em seu PC
+<img alt="adicionando o lib" src="https://user-images.githubusercontent.com/45500812/144854339-0a8ad682-836c-4ab4-ae6a-f629645dd3a6.png" width="50%">
+
+- Pronto, agora você já possui o GLFW operante no projeto
+
 ## 👨‍👦‍👦 COLABORADORES
 
 #### Nome: Djalma Henrique Silva Lima
